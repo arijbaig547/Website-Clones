@@ -1,0 +1,378 @@
+html,body{
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+.nav-item{
+    padding-left: 10px;
+    font-size: 15   px;
+    font-family: 'Courier New', Courier, monospace ;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(207, 178, 11);;
+    transition: 0.5s;
+}
+.navbar-brand{
+  filter: invert(1) !important;
+
+}
+.navbar{
+    background:black;
+    margin: 0 !important;
+    padding-top: 10px !important;
+    position: sticky  ;
+    top: 0;
+}
+s
+.main{
+    background-color: black !important;
+    background-image: url("https://images.unsplash.com/photo-1551529834-525807d6b4f3?q=80&w=1431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}   
+.home{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.unsplash.com/photo-1551529834-525807d6b4f3?q=80&w=1431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.welcome-text{
+    font-family: "Playball", cursive;
+    font-style: italic;
+    color: white;
+    font-weight: 800;
+    
+}
+.home{
+  
+}
+.playball-regular {
+    
+    font-weight: 800;
+    font-style: normal;
+  }
+  .welcome-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px; /* Space between text and lines */
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .welcome-sec p{
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+  }
+  .welcome-sec p::before,
+  .welcome-sec p::after {
+      content: "";
+      flex: 1;
+      width: 30px; /* Line width */
+      height: 2px; /* Line thickness */
+      background-color: rgb(207, 178, 11); /* Line color */
+      display: inline-block;
+      margin: 0 10px; /* Space between text and line */
+  }
+  .discover-text h1{
+    font-family: "Playball", cursive;
+    font-style: italic;
+    font-size: 50px;
+    color: #C59D5F;
+  }
+  .discover-text h5{
+    color: #C59D5F;
+    font-family: "Playball", cursive;
+    font-style: italic;
+    font-size: 30px;
+  }
+  .discover-text h6::before,
+  .discover-text h6::after{
+    content: "";
+    flex: 1;
+    width: 30px; /* Line width */
+    height: 2px; /* Line thickness */
+    background-color: rgb(207, 178, 11); /* Line color */
+    display: inline-block;
+    margin: 0 10px; /* Space between text and line */
+  }
+  .discover-text>p{
+    margin-top: 0.5rem;
+    color: grey;
+  }
+  a{
+    text-decoration: none;
+  }
+ .discover-text h5:hover{
+    color: black;
+    transition: 0.5s;
+ }
+ .hours{
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("28.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+ 
+
+ .opening-text h1{
+  color: white;
+  font-size: 60px;
+ }
+ .opening-text h5{
+  color: #C59D5F;
+  font-family: "Playball", cursive;
+  font-style: italic;
+  font-size: 40px;
+ }
+ .timings h3{
+  color: #C59D5F;
+  font-family: "Playball", cursive;
+  font-style: italic;
+  font-size: 40px;
+ }
+ .timings h5{
+  color: white;
+  font-size: 40px;
+ }
+ #phone{
+  color: #C59D5F;
+  font-family: "Playball", cursive;
+  font-style: italic;
+  font-size: 40px;
+ }
+ .deals{
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5),rgba(0,0,0,0.3)),   url("8.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+ .line {
+  display: flex;
+  align-items: center;
+  white-space: nowrap; 
+  font-weight: 900;
+}
+.day{
+  padding-top: 30px;
+  font-weight: 900;
+}
+.line::after {
+  content: "26$";
+  flex-grow: 1; 
+  height: 2px;
+  border-bottom: 2px dotted rgb(255, 255, 255);
+  margin-left: 10px;
+  text-align: right; 
+}
+.reservation{
+  font-size: 30px;
+  padding-top: 10px;
+  color: #C59D5F;
+  font-family: "Playball";
+}
+.team h1{
+  color: #C59D5F;
+  font-family: "Playball";
+  font-size: 60px;
+}
+.team p{
+  color: grey;
+}
+.team h6{
+  color: black;
+  font-weight: 500;
+}
+.chef{
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  min-width: 200px;
+  text-align: center;
+  padding: 10px;
+  transition: 0.5s;
+}
+.chef:hover{
+  transform: scale(0.8);
+}
+.chef>img{
+  text-align: center;
+}
+.chef-text{
+  font-weight: 900;
+  font-family: "Playball";
+  color: black !important;
+}
+.chef-textsmall{
+  color: #C59D5F !important;
+  font-weight: 900;
+}
+.menu{
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5),rgba(0,0,0,0.7)),   url("17.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu-items h1{
+  font-family: "Playball";
+  color: #C59D5F !important;
+  font-size: 60px;
+}
+.menu-items h5{
+  font-size: 25px;
+  color: black;
+  font-weight: 400;
+  font-style: italic;
+}
+.menu-items h6{
+  color: grey;
+  font-weight: 500;
+}
+.roast{
+  border:5px solid #C59D5F;
+  position: relative;
+  padding: 10px;
+}
+.roast::before{
+  content: "Chef Selection";
+  color: white;
+  font-family: "Playball";
+  background-color: #C59D5F;;
+  padding: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.gallery-banner{
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5),rgba(0,0,0,0.7)),   url("17.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gallery a{
+color: #C59D5F;
+}
+.item:hover{
+  background-color: black;
+  transition: 0.6s;
+  cursor: pointer;
+  border-radius: 20px;
+ 
+}
+.item:hover h5{
+  color: #C59D5F;
+}
+.item:hover h6{
+  color: white;
+}
+
+.images .item-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.images .item-img img {
+  display: block;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+/* Hover effect for scaling */
+.images .item-img:hover img {
+  transform: scale(1.0);
+}
+
+/* Adding orange background with centered text */
+.images .item-img::after {
+  content: "Item";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(61, 61, 60, 0.9); /* Semi-transparent orange */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+/* Show overlay on hover */
+.images .item-img:hover::after {
+  opacity: 1;
+}
+
+.onlinereservation-banner{
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5),rgba(0,0,0,0.7)),   url("33.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.onlinereservation{
+  color: black !important;
+}
+.input input,.input select{
+  margin-top: 20px;
+  padding: 20px 50px;
+  background-color: whitesmoke;
+  width: 90%;
+  border: none;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(129, 126, 126);
+}
+.reserve-button{
+  margin-top: 30px;
+}
+.reserve-button button{
+padding: 10px 50px;
+background-color: black;
+
+font-weight: 900;
+font-family: "Playball";
+color: #a37837!important;
+border: none;
+border-radius: 10px;
+transition: 1s;
+}
+.reserve-button button:hover{
+  color: white !important;
+}
+.onlinereservation-text h4{
+  font-weight: 900;
+}
+
+.contact-banner{
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5),rgba(0,0,0,0.7)),   url("32.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact h6{
+  font-weight: 700;
+}
+footer{
+  background-color: rgb(41, 40, 40);
+  font-family: "Playball";
+  color: #a37837;
+  font-size: 17px;
+}
+footer a{
+  color: white;
+}

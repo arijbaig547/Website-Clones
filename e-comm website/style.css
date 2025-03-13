@@ -1,0 +1,156 @@
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.nav-item a{
+    color: black !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-weight: 500 !important;
+}
+.text{
+    min-height: 300px !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: whitesmoke !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.navbar .container-fluid{
+    background-color: rgb(255, 255, 255) !important;
+}
+.background{
+    background-color: rgb(103, 146, 103) !important;
+}
+.background h1{
+    padding: 0 15px;
+    color: rgb(164, 204, 164) !important;
+    font-size: 60px !important  ;
+}
+.background p{
+    padding: 0 15px;
+    color: rgb(164, 204, 164) !important;
+    font-size: 20px !important;
+}
+.image{
+ position: relative;
+ z-index: 1;
+ height: 30vh;
+}
+.image img{
+    position: absolute;
+    top: 30%;
+   
+    width: 90%;
+}
+.items-row{
+    min-height: 300px;
+}
+.car-items{
+    background-color: whitesmoke !important
+}
+.car{
+    min-width: 300px;
+}
+.item img {
+    width: 50px; /* Sab icons ka size same hoga */
+    height: 50px;
+    object-fit: contain;
+}
+.itemtext button{
+background: transparent;
+color: black;
+}
+.filtertext{
+    min-height: 200px;
+}
+.item>.fs-4{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+.filterr{
+    background-color: whitesmoke !important;
+}
+.item-img{
+    cursor: pointer;
+    position: relative;
+}
+.item-img p{
+    position: absolute;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    background-color: rgb(164, 204, 164);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.item-img h6{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 25px;
+    padding: 0 10px;
+    margin-right: 10px;
+    
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.item-img h6:hover{
+    background-color: rgb(164, 204, 164);
+}
+.item-img img {
+    width: 100%;
+    height: auto;
+}
+.item-text{
+    padding: 15px 5px;
+}
+.videoimg>img{
+    border-radius: 10px;
+}
+.videotext{
+   margin-top: 6rem;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.videotext h1{
+    font-size: 50px;
+}
+.videotext p{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.questions h5{
+    padding: 10px 5px;
+}
+
+.ver-img>img{
+    max-height: 70%;
+}
+.input{
+    border: none !important;
+    font-size: 20px;
+    background-color: transparent;
+}
+.input:active{
+    border: none;
+    outline: none;
+}
+.subscribe{
+    background-color: whitesmoke !important;
+}
+.input:focus{
+    border: none;
+    outline: none;
+    
+}
+@media screen and (max-width:700px){
+    .row{
+        flex-direction: reverse;
+    }
+    .filterr{
+        flex-direction: column-reverse;
+    }
+}

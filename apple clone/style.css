@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: sticky !important;
+    top: 2px;
+    z-index: 1;
+}
+.home{
+    background-color:  orange !important;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8),rgba(0,0,0,0.3)), url("hero_iphone16pro_avail__fnf0f9x70jiy_mediumtall_2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.second{
+    background-color:  orange !important;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("hero_iphone16_avail__euwzls69btea_mediumtall_2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.third{
+    background-image: url("file:///E:/spacex-website/apple%20clone/images/hero_holiday_2024_still_time__fof6z4yuswyi_small_2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text h1{
+    font-size: 60px !important;
+}
+.text p{
+    font-weight: 600;
+}
+.nav-item a{
+    color: white !important;
+}
+.btn{
+    border-radius: 20px;
+    margin: 5px 2px;
+}
+#buy{
+    background: transparent;
+}
+.one>img{
+    border-radius: 15px !important;
+    object-fit: cover;
+    filter: brightness(0.9)
+}
+.items>img{
+    border-radius: 15px !important;
+}
+.items{
+    position: relative;
+}
+.items>img{
+    min-height: 400px;
+}
+.itemstext{
+    position: absolute;
+    
+}
+.two{
+    top: 30%;
+}
+.two p{
+    font-weight: 600 !important;
+    color: black !important;
+}
+.three{
+    top:1%
+}
+.four{
+    top: 2%;
+}
+.five{
+    top: 3%;
+}
+.six{
+    top: 3%;
+}
+.carousel-item>img{
+    filter: brightness(0.7);
+}
+.navbar-toggler {
+    border-color: white; /* Border color white */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  
+  

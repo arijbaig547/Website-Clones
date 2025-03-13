@@ -1,0 +1,111 @@
+@media screen and (max-width: 320px) 
+    {
+   h1{
+      font-size: 23px !important;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 13px !important;
+    }
+    h5{
+        font-size: 10px !important;
+    }
+    p {
+      font-size: 13px;
+    }
+    .item{
+        padding: 10px;
+    }
+    .item h5{
+        text-align: center;
+        font-size: 9px;
+    }
+    .item h6{
+        font-size: 10px;
+        text-align: center;
+    }
+    #phone{
+        font-size: 10px;
+    }
+    .navbar-collapse{
+      background-color: black;
+      color: black !important;
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width:375px) {
+    h1{
+      font-size: 25px !important;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    h3 {
+      font-size: 18px !important;
+    }
+    h5{
+        font-size: 16px !important;
+    }
+    p {
+      font-size: 15px;
+    }
+    .item{
+        padding: 10px;
+    }
+    .item h5{
+        text-align: center;
+        font-size: 11px;
+    }
+    .item h6{
+        font-size: 12px;
+        text-align: center;
+    }
+    #phone{
+        font-size: 12px;
+    }
+    .navbar-collapse{
+      background-color: black;
+      color: black !important;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width:425px) {
+    h1{
+      font-size: 28px !important;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    h3 {
+      font-size: 20px !important;
+    }
+    h5{
+        font-size: 18px !important;
+    }
+    p {
+      font-size: 17px;
+    }
+    .item{
+        padding: 10px;
+    }
+    .item h5{
+        text-align: center;
+        font-size: 13px;
+    }
+    .item h6{
+        font-size: 14px;
+        text-align: center;
+    }
+    #phone{
+        font-size: 14px;
+    }
+    .navbar-collapse{
+      background-color: black;
+      color: black !important;
+      font-size: 14px;
+    }
+  }
+  
