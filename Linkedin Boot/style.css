@@ -1,0 +1,246 @@
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.profilebox{
+    position: relative;
+   
+    border-radius: 15px;
+}
+#show{
+    display: none;
+    text-align: center !important;
+    margin-top: 1rem;
+    border: none;
+    background-color: rgb(191, 191, 191);
+    font-size: 16px;
+    color: white;
+}
+#cvr{
+    border-radius: 15px;
+}
+#circle{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top:100%;
+    left: 18%;
+    transform: translate(-50%,-50%);
+    background-color: white !important;
+}
+#uni-logo{
+    width: 20px;
+    height: 20px;
+}
+.uni p{
+    font-size: 12px;
+    padding: 5px;
+}
+.uni{
+    background-color: white;
+}
+.container-fluid{
+    background-color: rgb(241, 239, 233);
+}
+.text{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+.text h5{
+    margin-top: 1.5rem;
+}
+.text p{
+    font-size: 12px;
+}
+small{
+    color: grey;
+}
+.viewerbox{
+    border-radius: 15px;
+    font-weight: 500;
+    width: 100%;
+}
+.viewerbox p{
+    font-size: 13px;
+}
+.unlock{
+    background-color: white;
+    border-radius: 15px;
+}
+.fa-note-sticky{
+    color: goldenrod;
+}
+.items{
+    background-color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.icon{
+    width: 50%;
+}
+.start-post{
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+#post-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+.post{
+    border-radius: 25px;
+}
+.post-input{
+    border-radius: 25px;
+    width: 80%;
+    border: none;
+    background-color: white;
+    border:2px solid grey;
+}
+.post-input::placeholder{
+    color: grey;
+    font-weight: 500;
+}
+.fa-youtube{
+    color: green;
+}
+.fa-image{
+    color: rgb(37, 132, 240);
+}
+.fa-newspaper{
+color: rgb(244, 92, 37);
+}
+.person{
+    position: relative;
+}
+.connect-icon{
+    position: absolute;
+    right: 0;
+    
+}
+.person p{
+    font-size: 15px;
+}
+.persontext p{
+    font-size: 12px;
+}
+.post{
+    background-color: white;
+    padding: 10px;
+}
+.fa-thumbs-up{
+    color: rgb(47, 104, 248);
+}
+.fa-heart{
+    color: rgb(237, 87, 87);
+}
+.fa-lightbulb{
+    color: orange;
+}
+.fa-user-plus{
+    color: rgb(47, 104, 248);
+}
+.navbar-brand i{
+    color: rgb(40, 99, 178);;
+    font-size: 40px;
+}
+.nav-item i{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(78, 78, 78);
+}
+.nav-item a{
+    font-size: 12px;
+}
+#nav-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.bg-light{
+    background-color: white !important;
+}
+.games .icon{
+    display: flex;
+    align-items: center;
+  
+}
+.games{
+    background-color: white;
+    border-radius: 15px;
+}
+.games p{
+    flex: 1;
+    min-width: 100px;
+    padding-top: 10px;
+    position: relative;
+}
+.games p:after{
+    content: ">";
+    width: 1px;
+    height: 30px;
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+}
+.addtofeed{
+    background-color: white;
+    border-radius: 15px;
+}
+.addtofeed img{
+    width: 40px;
+    height: 40px;
+}
+.colo button{
+    border: none;
+    width: 90px;
+    border-radius: 15px;
+    border: 2px solid rgb(35, 35, 35);
+}
+@media screen and (max-width: 480px) {
+    .viewerbox, .unlock, .items {
+        display: none !important;
+        
+    }
+    .showbutton {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+    #show {
+        display: block;
+    }
+    /* ✅ Corrected Selector */
+    .dikhao .viewerbox, 
+    .dikhao .unlock, 
+    .dikhao .items {
+        display: block !important;
+    }
+    .post-content i,p{
+        font-size: 12px;
+    }
+    .post-outcomes i,p{
+        font-size: 10px;
+        
+    }
+    .connect-icon{
+     left: 80%;
+     top: 18%;
+    }
+    .connect-icon i{
+        font-size: 10px;
+    }
+    .connect-icon p{
+        font-size: 10px;
+    }
+    .start-post i,p{
+        font-size: 11px;
+    }
+}
+
