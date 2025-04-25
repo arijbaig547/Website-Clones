@@ -1,0 +1,76 @@
+@media screen and (min-width:900px) and (max-width:1124px){
+    .navbar ul li{
+        font-size: 18px;
+    }
+    .header-text h1{
+        font-size: 60px;
+    }
+    .gall-images{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem 2rem;
+    }
+    #Explore .Explore-text h1 {
+        font-size: 90px;
+    }
+    .card{
+     
+        width: 30%;
+        padding-left: 1rem;
+        transform: transition 0.5s ease;
+        color: white;
+    }    
+    #Explore h3{
+        font-size: 60px;
+    }
+    #Explore h5{
+font-size: 30px;
+    }
+    #Explore p{
+        font-size: 15px;
+    }
+    .gallery h2{
+        font-size: 60px;
+    }
+    .gallery-text{
+        margin-top: 5rem;
+        width: 100%;
+        height: 10%;
+        padding: 20px 12px;
+    }
+    .gallery-text p{
+        font-size: 20px;
+    }
+    .contact-info h2{
+        font-size: 60px;
+        color: white;
+    }
+    .contact-info p{
+        font-size: 50px;
+        color: orange;
+    }
+    }
+    @media screen and (min-width:1500px) and (max-width:2560px) {
+        .navbar ul li{
+            font-size: 30px;
+        }
+        .header-text h1{
+            font-size: 120px;
+        }
+        .header-text p{
+            font-size: 120px;
+        }
+        #Explore .Explore-text h1 {
+            font-size: 120px;
+        }
+        
+        #Explore h3{
+            font-size: 90px;
+        }
+        #Explore h5{
+    font-size: 90px;
+        }
+    }

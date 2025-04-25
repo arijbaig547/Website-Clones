@@ -28,6 +28,7 @@ html,body{
     left: 18%;
     transform: translate(-50%,-50%);
     background-color: white !important;
+    object-fit: cover;
 }
 #uni-logo{
     width: 20px;
